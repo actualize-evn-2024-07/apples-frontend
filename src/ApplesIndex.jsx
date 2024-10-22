@@ -20,6 +20,7 @@ export function ApplesIndex() {
           <p><b>variety:</b>{apple.variety}</p>
           <p><b>color:</b>{apple.color}</p>
           <p><b>mass:</b>{apple.mass}</p>
+          <hr />
         </div>
       ))}
     </div>
