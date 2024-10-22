@@ -6,7 +6,7 @@ export function ApplesIndex() {
   
   const handleIndex = () => {
     console.log('index')
-    axios.get("http://localhost:3000/apples.json").then(response => {
+    axios.get("/apples.json").then(response => {
       setApples(response.data)
     })
   }

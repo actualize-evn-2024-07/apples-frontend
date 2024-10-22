@@ -8,7 +8,7 @@ export function ApplesNew() {
     event.preventDefault()
     console.log('something something')
     const params = new FormData(event.target)
-    axios.post("http://localhost:3000/apples.json", params).then(response => {
+    axios.post("/apples.json", params).then(response => {
       navigate('/')
     })
   }
