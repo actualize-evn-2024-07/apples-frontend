@@ -8,9 +8,11 @@ import { Footer } from "./Footer";
 const router = createBrowserRouter([
   {
     element: (
-      <div>
+      <div className="font-['Futura'] flex min-h-screen flex-col">
         <Header />
-        <Outlet />
+        <div className="container mx-auto p-6 flex-auto">
+          <Outlet />
+        </div>
         <Footer />
       </div>
     ),
