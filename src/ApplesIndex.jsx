@@ -14,7 +14,10 @@ export function ApplesIndex() {
   useEffect(handleIndex, [])
   return (
     <div>
-      <p>Apples index</p>
+      <h1>Apples index</h1>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       {apples.map(apple => (
         <div key={apple.id}>
           <p><b>variety:</b>{apple.variety}</p>
